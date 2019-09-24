@@ -82,9 +82,9 @@ It is your job to test your code. All images need to load. All links need to wor
 
 Please read very carefully. Historically, most students lose points on problem sets for simply failing to read the instructions and requirements.
 
-* September 23, 2019, at 11:59pm.
+* September 25, 2019, at 11:59pm.
 
-If you submit your problem set at midnight (i.e., September 24, 2019, at 12:00am), it is considered **late**!
+If you submit your problem set at midnight (i.e., September 26, 2019, at 12:00am), it is considered **late**!
 
 ### Submission Requirements
 
