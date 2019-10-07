@@ -1,8 +1,7 @@
 #navigation {
   background-color: #9cd9db; 
   position: fixed; 
-  top: 0px; 
-  width: 125%; 
+  width: 100%; 
 }
 
 #navigation a:hover {
