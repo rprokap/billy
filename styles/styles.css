@@ -1,7 +1,7 @@
 #navigation {
-  background-color: #333; 
+  background-color: #9cd9db; 
   position: fixed; 
-  top: -50px; 
+  top: 0px; 
   width: 100%; 
   transition: top 0.3s; 
 }
