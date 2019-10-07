@@ -3,7 +3,6 @@
   position: fixed; 
   top: 0px; 
   width: 100%; 
-  transition: top 0.3s; 
 }
 
 #navigation a:hover {
@@ -20,4 +19,3 @@ function scrollFunction() {
   }
 }
 
-<!-- js code: https://www.w3schools.com/howto/howto_js_navbar_slide.asp-->
