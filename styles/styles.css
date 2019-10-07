@@ -1,3 +1,7 @@
+* {
+  font-family: comic sans ms;
+}
+
 #navigation {
   background-color: #9cd9db; 
   position: fixed; 
@@ -17,4 +21,5 @@ function scrollFunction() {
     document.getElementById("navigation").style.top = "0px";
   }
 }
+
 
