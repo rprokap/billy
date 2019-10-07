@@ -6,15 +6,6 @@
   transition: top 0.3s; 
 }
 
-#navigation a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
-}
-
 #navigation a:hover {
   background-color: #102;
   color: black;
