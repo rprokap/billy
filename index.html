@@ -9,17 +9,42 @@
 			<nav>
   			<ul>
     			<div id="navigation">
-				<center> <h3> <a style="color: red;" href="index.html"> all about billy </a> &nbsp &nbsp &nbsp
-				<a style="color: #f5e042;" href="billys-family.html"> billy's family </a> &nbsp &nbsp &nbsp
-				<a style="color: red ;" href="billys-friends.html"> billy's friends</a> &nbsp &nbsp &nbsp
-				<a style="color: #f5e042;" href="billy-favorites.html"> billy's favorite things to do </a> &nbsp &nbsp &nbsp
-				<a style="color: red;" href="billy-human.html"> billy is definitely human </a> </h3> </center>
+						<center> <h3> <a style="color: #e06cc9;" href="index.html"> all about billy </a>
+						<a style="color: #2f85ad;" href="billys-family.html"> billy's family </a>
+						<a style="color: #e06cc9 ;" href="billys-friends.html"> billy's friends</a>
+						<a style="color: #2f85ad;" href="billy-favorites.html"> billy's favorite things to do </a>
+						<a style="color: #e06cc9;" href="billy-human.html"> billy is definitely human </a> </h3> </center>
 			</div>
   			</ul>
 			</nav>
-		<br><br><br><br> <h1> <strong> <center> this is billy </center> </strong> </h1>
+		</div>
+		<br><br><br><br>
+		<h1> <strong> <center> this is billy: </center> </strong> </h1>
 		<center> <a href="bonus-billy.html"> <img src="images\billy.png" height= 75% width= "100%" /> </a> </center>
 		<center> <h2> <p> i made him in ms paint </p></h2></center>
+		<center><div id="button"><h2> &rarr; disclaimer! &larr;</h2></center></div>
+		<div id="yote" class="classyeet">
+	  <div class="divclassyeet">
+	    <span class="close">&times;</span>
+	    <p>idk what im doing</p>
+	  </div>
+		<script>
+		var yeet = document.getElementById("yote");
+		var buttone = document.getElementById("button");
+		var span = document.getElementsByClassName("close")[0];
+		buttone.onclick = function() {
+  		yeet.style.display = "block";
+		}
+		span.onclick = function() {
+	  	yeet.style.display = "none";
+		}
+		window.onclick = function(event) {
+  		if (event.target == yeet) {
+    		yeet.style.display = "none";
+  		}
+		}
+	</script>
+	</div>
 		<p> ages billy has been: </p>
 		<ol>
  		   <li>One year old</li>
