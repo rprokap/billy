@@ -16,14 +16,6 @@
   color: lightblue;
 }
 
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navigation").style.top = "0";
-  } else {
-    document.getElementById("navigation").style.top = "0px";
-  }
-}
 
 a:link {
   text-decoration: none;
@@ -52,13 +44,6 @@ a:link, a:visited {
 
 a:hover, a:active {
   background-color:#80f2c7 ;
-}
-
-h1 {
-  background: -webkit-linear-gradient(#e06cc9, #2f85ad);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 50px;
 }
 
 .classyeet {
@@ -99,4 +84,55 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
+}
+
+h1 {
+  background: -webkit-linear-gradient(#e06cc9, #2f85ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  color: #254732
+}
+a[href="https://www.ucvts.tec.nj.us/domain/107"] {
+  background: transparent;
+  color: #e06cc9;
+  display: text;
+}
+
+a[href="https://www.ucvts.tec.nj.us"] {
+  background: transparent;
+  color: #2f85ad;
+  display: text;
+}
+
+#footerthing {
+  align-content: center;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  color: black;
+  background: #80f2c7;
+}
+
+#footerthing2 {
+  align-content: center;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  color: black;
+  background: #80f2c7;
+}
+
+#headertext {
+  color: #e06cc9;
 }
