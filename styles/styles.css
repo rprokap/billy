@@ -140,3 +140,32 @@ a[href="https://www.ucvts.tec.nj.us"] {
 #margins {
   margin-left: 50px;
 }
+
+table {
+  width: 100;
+  table-layout: fixed;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  height: 150px;
+  text-align: left;
+}
+
+td {
+  height: 150px;
+  width: 14.2857%
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
